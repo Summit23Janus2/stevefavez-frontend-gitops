@@ -1,0 +1,15 @@
+app:
+  name: stevefavez-poi-map-app
+  namespace: stevefavez
+  cluster: apps.summit23blues.6mbu.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23Janus2/stevefavez-frontend
+  org: Summit23Janus2
+  name: stevefavez-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: stevefavez/poi-map-app
+  tag: latest
